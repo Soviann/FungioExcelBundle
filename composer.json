@@ -1,5 +1,5 @@
 {
-    "name": "fungio/excel-bundle",
+    "name": "soviann/excel-bundle",
     "description": "This is a Symfony2 Bundle helps you to read and write Excel files (including pdf, xlsx, odt), thanks to the PHPExcel library",
     "type": "symfony-bundle",
     "authors": [
@@ -38,6 +38,9 @@
         "symfony/validator": "~2.6|~3.0",
         "symfony/browser-kit": "~2.6|~3.0",
         "sensio/framework-extra-bundle": "~2.3|~3.0"
+    },
+    "replace": {
+        "fungio/excel-bundle": "*"  
     },
     "autoload": {
         "exclude-from-classmap": ["/Tests/"],
